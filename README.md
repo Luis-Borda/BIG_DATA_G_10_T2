@@ -27,17 +27,11 @@ En esta carpeta se encuentra el documento en el cual se desarrollo el problem se
 
 ## Scripts
 
-En esta carpeta se encuentran los scripts estructurados para desarrollar el problem set organizados de la siguiente manera:
-
-- `Punto 2` - descriptivas`: Aquí se encuentra el código utilizado para hacer el web scraping y consolidar la base de datos. Además, contiene el análisis descriptivo de las variables a utilizar.
-- `Punto 2` - Datos Faltantes`: En este script se encuentra el proceso utilizado para la imputación de datos a partir de una regresión estocástica.
-- `Punto 3`: Aquí se estima el perfil de edad-salario de los individuos de la muestra que da respuesta al punto 3 del problem set.
-- `Punto 4`: En este script se estima la brecha de ingresos por genero que da respuesta al punto 4 del problem set.
-- `Punto 5`: Aquí se encuentra el código utilizado para realizar la predicción de ganancias de los diferentes modelos y evalúa su poder predictivo.
+En esta carpeta se encuentran los scripts estructurados para desarrollar el problem set organizados de la siguiente manera: limpieza de los datos e imputación, delimitación de áreas de interes (train para Bogotá y test para la localidad de Chapinero) visualización de datos, estadiscticas descriptivas de los precios e imputación a partir de métodos convencionales. El tercero es donde se generan las variables espaciales y se encuentran los gráficos de la variables espaciales con el precio de las viviendas. En el cuarto se encuentra el modelo de regularización donde estan los modelos de OLD, Ridge, Lasso y Elastic Net. En el quinto se encuentra arboles y en el último super learner
 
 ## Stores
 
-En esta carpeta se aloja las base de datos utilizada para realizar el problem set. 
+En esta carpeta se alojan las base de datos utilizadas para realizar el problem set. 
 
 ## Views
 
