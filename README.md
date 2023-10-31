@@ -27,7 +27,13 @@ En esta carpeta se encuentra el documento en el cual se desarrollo el problem se
 
 ## Scripts
 
-En esta carpeta se encuentran los scripts estructurados para desarrollar el problem set organizados de la siguiente manera: limpieza de los datos e imputación, delimitación de áreas de interes (train para Bogotá y test para la localidad de Chapinero) visualización de datos, estadiscticas descriptivas de los precios e imputación a partir de métodos convencionales. El tercero es donde se generan las variables espaciales y se encuentran los gráficos de la variables espaciales con el precio de las viviendas. En el cuarto se encuentra el modelo de regularización donde estan los modelos de OLD, Ridge, Lasso y Elastic Net. En el quinto se encuentra arboles y en el último super learner
+En esta carpeta se encuentran los scripts estructurados para desarrollar el problem set organizados de la siguiente manera: 
+
+- `Limpieza e imputación`: este script contiene la limpieza de los datos e imputación, delimitación de áreas de interes (train para Bogotá y test para la localidad de Chapinero) visualización de datos,cálculo de estadiscticas descriptivas e imputación a partir de métodos convencionales. 
+- `Spacial`:En este script se generan las variables espaciales, sus estadísticas descriptivas y los graficos de correlaciones con la variable precios.
+- `Modelos de regularización`: en este script se los modelos de OLw, Ridge, Lasso y Elastic Net. 
+- `Modelos de árboles`: aquí se encuentran las estimaciones del modelo de árboles
+- `Modelo super learner`: en este script se encuentran las estimaciones del modelo super learner
 
 ## Stores
 
